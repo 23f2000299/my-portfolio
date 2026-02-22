@@ -114,30 +114,6 @@ const Contact = () => {
 
         </div>
 
-
-        {/* Preferred Contact */}
-        <div
-          className="
-            bg-slate-900/60
-            border border-slate-700/60
-            rounded-2xl
-            p-6
-
-            shadow-lg shadow-blue-500/5
-
-            hover:border-blue-400/40
-            transition-all duration-300
-          "
-        >
-          <p className="text-slate-400 text-sm">
-            Preferred contact method
-          </p>
-
-          <p className="text-slate-200 mt-1">
-            Email is the fastest and preferred way to reach me.
-          </p>
-        </div>
-
       </div>
     </PageWrapper>
   );
