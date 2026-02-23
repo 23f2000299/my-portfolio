@@ -32,21 +32,20 @@ const About = () => {
 
         {/* Top Section */}
         <div
-          className="
-            bg-slate-900/70
-            backdrop-blur-md
-            border border-slate-700/60
-            rounded-3xl
-            p-10
-            shadow-xl
-            shadow-blue-500/5
+  className="
+    bg-slate-900/70
+    backdrop-blur-md
+    border border-slate-400/50   /* subtle, always-on light border */
+    rounded-3xl
+    p-10
+    shadow-xl shadow-blue-500/5
 
-            flex flex-col md:flex-row md:items-center gap-8
+    flex flex-col md:flex-row md:items-center gap-8
 
-            hover:border-blue-400/40
-            transition-all duration-500
-          "
-        >
+    hover:border-blue-400/40     /* optional hover accent */
+    transition-all duration-500
+  "
+>
           {/* Profile Picture */}
           <div className="flex-shrink-0 -mt-6">
             <img
@@ -104,22 +103,20 @@ const About = () => {
         {/* Stats */}
         <div className="grid md:grid-cols-3 gap-6">
 
-          <div
-            className="
-              bg-slate-900/60
-              border border-slate-700/60
-              rounded-2xl
-              p-6
-              text-center
-
-              shadow-lg shadow-blue-500/5
-
-              hover:border-blue-400/40
-              hover:scale-[1.03]
-
-              transition-all duration-300
-            "
-          >
+       <div
+  className="
+    group relative
+    bg-slate-900/70
+    backdrop-blur-md
+    border border-slate-400/50   /* lighter, subtle border */
+    p-6
+    rounded-2xl
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:border-indigo-400      /* keeps hover accent if needed */
+    hover:shadow-[0_0_25px_rgba(99,102,241,0.15)] /* very subtle hover shadow */
+  "
+>
             <h4 className="text-3xl font-bold text-blue-400">
               9.0
             </h4>
@@ -131,21 +128,19 @@ const About = () => {
 
 
           <div
-            className="
-              bg-slate-900/60
-              border border-slate-700/60
-              rounded-2xl
-              p-6
-              text-center
-
-              shadow-lg shadow-blue-500/5
-
-              hover:border-blue-400/40
-              hover:scale-[1.03]
-
-              transition-all duration-300
-            "
-          >
+  className="
+    group relative
+    bg-slate-900/70
+    backdrop-blur-md
+    border border-slate-400/50   /* lighter, subtle border */
+    p-6
+    rounded-2xl
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:border-indigo-400      /* keeps hover accent if needed */
+    hover:shadow-[0_0_25px_rgba(99,102,241,0.15)] /* very subtle hover shadow */
+  "
+>
             <h4 className="text-3xl font-bold text-blue-400">
               100+
             </h4>
@@ -157,21 +152,19 @@ const About = () => {
 
 
           <div
-            className="
-              bg-slate-900/60
-              border border-slate-700/60
-              rounded-2xl
-              p-6
-              text-center
-
-              shadow-lg shadow-blue-500/5
-
-              hover:border-blue-400/40
-              hover:scale-[1.03]
-
-              transition-all duration-300
-            "
-          >
+  className="
+    group relative
+    bg-slate-900/70
+    backdrop-blur-md
+    border border-slate-400/50   /* lighter, subtle border */
+    p-6
+    rounded-2xl
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:border-indigo-400      /* keeps hover accent if needed */
+    hover:shadow-[0_0_25px_rgba(99,102,241,0.15)] /* very subtle hover shadow */
+  "
+>
             <h4 className="text-3xl font-bold text-blue-400">
               AI + Backend
             </h4>
@@ -186,21 +179,20 @@ const About = () => {
 
 
         {/* Skills Section */}
-        <div
-          className="
-            bg-slate-900/70
-            backdrop-blur-md
-            border border-slate-700/60
-            rounded-3xl
-            p-10
-
-            shadow-xl shadow-blue-500/5
-
-            hover:border-blue-400/40
-
-            transition-all duration-500
-          "
-        >
+<div
+  className="
+    group relative
+    bg-slate-900/70
+    backdrop-blur-md
+    border border-slate-400/50   /* lighter, subtle border */
+    p-6
+    rounded-2xl
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:border-indigo-400      /* keeps hover accent if needed */
+    hover:shadow-[0_0_25px_rgba(99,102,241,0.15)] /* very subtle hover shadow */
+  "
+>
 
           <h4 className="text-2xl font-semibold text-blue-400 mb-8">
             Technical Skills

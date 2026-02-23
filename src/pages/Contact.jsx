@@ -102,7 +102,7 @@ const Contact = () => {
             icon={Linkedin}
             title="LinkedIn"
             value="linkedin.com/in/fathimasameeha-0608"
-            link="https://linkedin.com/in/fathimasameeha-0608"
+            link="https://linkedin.com/in/fathima-sameeha0608"
           />
 
           <ContactCard
